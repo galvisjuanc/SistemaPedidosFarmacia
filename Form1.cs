@@ -23,26 +23,18 @@ namespace SistemaPedidosFarmacia
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            // 1. Limpiar los campos de texto
-            // Puedes usar "" (comillas vacías) o string.Empty
             txtNombre.Text = "";
             txtCantidad.Text = "";
 
-            // 2. Reiniciar el menú desplegable (ComboBox)
-            // El índice -1 significa que no hay ningún elemento seleccionado
             cmbTipo.SelectedIndex = -1;
 
-            // 3. Desmarcar los botones de opción (RadioButtons del distribuidor)
             rbCofarma.Checked = false;
             rbEmpsephar.Checked = false;
-            Cemefar.Checked = false;
+            rbCemefar.Checked = false;
 
-            // 4. Desmarcar las casillas de verificación (CheckBoxes de la sucursal)
             chkPrincipal.Checked = false;
             chkSecundaria.Checked = false;
 
-            // 5. (Opcional pero recomendado) Devolver el cursor al primer campo
-            // Esto mejora la experiencia del usuario para que pueda empezar a escribir de inmediato
             txtNombre.Focus();
         }
 
@@ -73,7 +65,7 @@ namespace SistemaPedidosFarmacia
             }
 
             // 4. Validar Distribuidor (Al menos un RadioButton seleccionado)
-            if (!rbCofarma.Checked && !rbEmpsephar.Checked && !Cemefar.Checked)
+            if (!rbCofarma.Checked && !rbEmpsephar.Checked && !rbCemefar.Checked)
             {
                 MessageBox.Show("Debe seleccionar un distribuidor farmacéutico.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -94,7 +86,7 @@ namespace SistemaPedidosFarmacia
             string distribuidor = "";
             if (rbCofarma.Checked) distribuidor = "Cofarma";
             else if (rbEmpsephar.Checked) distribuidor = "Empsephar";
-            else if (Cemefar.Checked) distribuidor = "Cemefar";
+            else if (rbCemefar.Checked) distribuidor = "Cemefar";
 
             bool envioPrincipal = chkPrincipal.Checked;
             bool envioSecundaria = chkSecundaria.Checked;
