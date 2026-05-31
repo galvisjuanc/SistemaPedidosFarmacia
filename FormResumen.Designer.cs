@@ -32,29 +32,30 @@
             lblDireccion = new Label();
             btnCancelar = new Button();
             btnEnviar = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // lblMedicamento
             // 
             lblMedicamento.AutoSize = true;
-            lblMedicamento.Location = new Point(122, 91);
+            lblMedicamento.Location = new Point(29, 97);
             lblMedicamento.Name = "lblMedicamento";
-            lblMedicamento.Size = new Size(50, 20);
+            lblMedicamento.Size = new Size(118, 20);
             lblMedicamento.TabIndex = 0;
-            lblMedicamento.Text = "label1";
+            lblMedicamento.Text = "lblMedicamento";
             // 
             // lblDireccion
             // 
             lblDireccion.AutoSize = true;
-            lblDireccion.Location = new Point(519, 91);
+            lblDireccion.Location = new Point(29, 156);
             lblDireccion.Name = "lblDireccion";
-            lblDireccion.Size = new Size(50, 20);
+            lblDireccion.Size = new Size(89, 20);
             lblDireccion.TabIndex = 1;
-            lblDireccion.Text = "label1";
+            lblDireccion.Text = "lblDireccion";
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(122, 195);
+            btnCancelar.Location = new Point(29, 231);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(94, 29);
             btnCancelar.TabIndex = 2;
@@ -64,7 +65,7 @@
             // 
             // btnEnviar
             // 
-            btnEnviar.Location = new Point(475, 195);
+            btnEnviar.Location = new Point(256, 231);
             btnEnviar.Name = "btnEnviar";
             btnEnviar.Size = new Size(94, 29);
             btnEnviar.TabIndex = 3;
@@ -72,11 +73,22 @@
             btnEnviar.UseVisualStyleBackColor = true;
             btnEnviar.Click += btnEnviar_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(29, 21);
+            label1.Name = "label1";
+            label1.Size = new Size(321, 38);
+            label1.TabIndex = 4;
+            label1.Text = "Confirmacion del Pedido";
+            // 
             // FormResumen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(403, 302);
+            Controls.Add(label1);
             Controls.Add(btnEnviar);
             Controls.Add(btnCancelar);
             Controls.Add(lblDireccion);
@@ -94,5 +106,6 @@
         private Label lblDireccion;
         private Button btnCancelar;
         private Button btnEnviar;
+        private Label label1;
     }
 }

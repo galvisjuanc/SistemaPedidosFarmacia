@@ -1,5 +1,5 @@
 using System;
-using System.Text.RegularExpressions; // Necesario para validar alfanuméricos
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace SistemaPedidosFarmacia
@@ -150,6 +150,16 @@ namespace SistemaPedidosFarmacia
                 // Bloqueamos cualquier símbolo especial
                 e.Handled = true;
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
