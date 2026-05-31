@@ -15,3 +15,4 @@ C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\Sis
 C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.genruntimeconfig.cache
 C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\ref\SistemaPedidosFarmacia.dll
 C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.FormResumen.resources
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.sourcelink.json
