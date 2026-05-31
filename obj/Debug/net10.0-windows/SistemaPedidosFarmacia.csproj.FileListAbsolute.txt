@@ -1,0 +1,17 @@
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\bin\Debug\net10.0-windows\SistemaPedidosFarmacia.exe
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\bin\Debug\net10.0-windows\SistemaPedidosFarmacia.deps.json
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\bin\Debug\net10.0-windows\SistemaPedidosFarmacia.runtimeconfig.json
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\bin\Debug\net10.0-windows\SistemaPedidosFarmacia.dll
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\bin\Debug\net10.0-windows\SistemaPedidosFarmacia.pdb
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.Form1.resources
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.csproj.GenerateResource.cache
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.AssemblyInfoInputs.cache
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.AssemblyInfo.cs
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.csproj.CoreCompileInputs.cache
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.dll
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\refint\SistemaPedidosFarmacia.dll
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.pdb
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.genruntimeconfig.cache
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\ref\SistemaPedidosFarmacia.dll
+C:\Users\galvi\source\repos\SistemaPedidosFarmacia\obj\Debug\net10.0-windows\SistemaPedidosFarmacia.FormResumen.resources
