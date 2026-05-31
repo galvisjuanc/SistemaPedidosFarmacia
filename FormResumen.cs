@@ -25,15 +25,15 @@ namespace SistemaPedidosFarmacia
 
             if (principal && secundaria)
             {
-                direccion += "Calle de la Rosa n. 28 y para la situada en Calle Alcazabilla n. 3";
+                direccion += "Calle 7 # 14-14 y para la situada en Carrera 123 # 80-13";
             }
             else if (principal)
             {
-                direccion += "Calle de la Rosa n. 28";
+                direccion += "Calle 7 # 14-14";
             }
             else if (secundaria)
             {
-                direccion += "Calle Alcazabilla n. 3";
+                direccion += "Carrera 123 # 80-13";
             }
 
             lblDireccion.Text = direccion;
@@ -46,13 +46,11 @@ namespace SistemaPedidosFarmacia
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            // Cierra la ventana de resumen sin hacer nada más
             this.Close();
         }
 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-            // Muestra el mensaje final y luego cierra la ventana
             MessageBox.Show("Pedido enviado", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
