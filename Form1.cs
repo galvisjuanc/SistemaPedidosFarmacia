@@ -91,7 +91,6 @@ namespace SistemaPedidosFarmacia
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // 1. Llenamos las opciones del menú desplegable
             cmbTipo.Items.Add("Analgésico");
             cmbTipo.Items.Add("Analéptico");
             cmbTipo.Items.Add("Anestésico");
@@ -99,19 +98,13 @@ namespace SistemaPedidosFarmacia
             cmbTipo.Items.Add("Antidepresivo");
             cmbTipo.Items.Add("Antibiótico");
 
-            // 2. Bloqueamos el ComboBox para que no se pueda escribir texto libre en él
             cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void txtCantidad_KeyPress(object sender, KeyPressEventArgs e)
         {
-            // Evaluamos la tecla presionada. 
-            // char.IsControl permite usar borrar (Backspace).
-            // char.IsDigit permite los números del 0 al 9.
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
-                // Si la tecla NO es control y NO es un dígito, cancelamos el evento.
-                // Es como decirle al teclado: "Ignora esta tecla, no la escribas".
                 e.Handled = true;
             }
         }
