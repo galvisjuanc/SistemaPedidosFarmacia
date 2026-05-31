@@ -111,13 +111,8 @@ namespace SistemaPedidosFarmacia
 
         private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
         {
-            // char.IsLetter permite letras (a-z, A-Z)
-            // char.IsDigit permite números (0-9)
-            // char.IsControl permite usar borrar (Backspace)
-            // char.IsSeparator permite la barra espaciadora
             if (!char.IsLetter(e.KeyChar) && !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsSeparator(e.KeyChar))
             {
-                // Bloqueamos cualquier símbolo especial
                 e.Handled = true;
             }
         }
