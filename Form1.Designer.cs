@@ -33,7 +33,7 @@
             txtCantidad = new TextBox();
             rbCofarma = new RadioButton();
             rbEmpsephar = new RadioButton();
-            Cemefar = new RadioButton();
+            rbCemefar = new RadioButton();
             groupBox1 = new GroupBox();
             chkPrincipal = new CheckBox();
             chkSecundaria = new CheckBox();
@@ -97,21 +97,21 @@
             rbEmpsephar.UseVisualStyleBackColor = true;
             rbEmpsephar.CheckedChanged += radioButton2_CheckedChanged;
             // 
-            // Cemefar
+            // rbCemefar
             // 
-            Cemefar.AutoSize = true;
-            Cemefar.Location = new Point(6, 86);
-            Cemefar.Name = "Cemefar";
-            Cemefar.Size = new Size(86, 24);
-            Cemefar.TabIndex = 5;
-            Cemefar.TabStop = true;
-            Cemefar.Text = "Cemefar";
-            Cemefar.UseVisualStyleBackColor = true;
+            rbCemefar.AutoSize = true;
+            rbCemefar.Location = new Point(6, 86);
+            rbCemefar.Name = "rbCemefar";
+            rbCemefar.Size = new Size(86, 24);
+            rbCemefar.TabIndex = 5;
+            rbCemefar.TabStop = true;
+            rbCemefar.Text = "Cemefar";
+            rbCemefar.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(rbCofarma);
-            groupBox1.Controls.Add(Cemefar);
+            groupBox1.Controls.Add(rbCemefar);
             groupBox1.Controls.Add(rbEmpsephar);
             groupBox1.Location = new Point(327, 78);
             groupBox1.Name = "groupBox1";
@@ -245,7 +245,7 @@
         private TextBox txtCantidad;
         private RadioButton rbCofarma;
         private RadioButton rbEmpsephar;
-        private RadioButton Cemefar;
+        private RadioButton rbCemefar;
         private GroupBox groupBox1;
         private CheckBox chkPrincipal;
         private CheckBox chkSecundaria;
